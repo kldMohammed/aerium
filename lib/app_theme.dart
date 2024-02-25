@@ -22,7 +22,7 @@ class AppTheme {
       ),
       scaffoldBackgroundColor: colorScheme.background,
       highlightColor: Colors.transparent,
-      accentColor: colorScheme.primary,
+      hintColor: colorScheme.primary,
       focusColor: AppColors.primaryColor,
       visualDensity: VisualDensity.adaptivePlatformDensity,
     );
@@ -30,9 +30,7 @@ class AppTheme {
 
   static const ColorScheme lightColorScheme = ColorScheme(
     primary: Color(0xFF2C3541),
-    primaryVariant: Color(0xFF0E1319),
     secondary: Color(0xFFEFF3F3),
-    secondaryVariant: Color(0xFFFAFBFB),
     background: Color(0xFFFFFFFF),
     surface: Color(0xFFFAFBFB),
     onBackground: Colors.white,

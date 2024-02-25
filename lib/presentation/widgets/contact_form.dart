@@ -70,7 +70,7 @@ class SendMessageButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     ThemeData theme = Theme.of(context);
-    return FlatButton(
+    return ElevatedButton(
       onPressed: onPressed,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
